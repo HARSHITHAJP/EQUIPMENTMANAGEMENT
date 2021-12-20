@@ -1,0 +1,134 @@
+
+/*=====================================================Main section====*/
+section{
+  padding: 10%;
+  background: linear-gradient(rgba(23, 47, 99, 0.8), rgba(243, 181, 0, 0.8)), url("MEDIA/equipmentwall.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+caption{
+  font-size: 2em;
+  font-weight: bolder;
+  color: yellow;
+  text-align: center;
+}
+
+table.pricetable {
+  font-family: 'Rubik', sans-serif;
+  border: none;
+  background-color: #EEE7DB;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.pricetable td, table.pricetable th {
+  border: none;
+  padding: 7px 7px;
+  height:3em;
+}
+table.pricetable tbody td {
+  font-size: 1.2em;
+}
+table.pricetable tr:nth-child(even) {
+  background: #e2b882;
+}
+table.pricetable thead {
+  background:#172f63;
+}
+table.pricetable thead th {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: none;
+}
+table.pricetable thead th:first-child {
+  border-left: none;
+}
+
+
+
+/*=====================================================Main section====*/
+
+
+  /*------------------RESPONSIVE DESIGN start-------------------------*/
+
+  @media screen and (max-width: 1200px) {
+
+    .navbar{
+        grid-template-columns: 1fr auto;
+        padding: 2%;
+    }
+
+    .carditem{
+        max-width: 150px;
+        padding: 5%;
+    }
+    .carditem img{
+        max-width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+
+    .navbar{
+        grid-template-columns: 2fr;
+        grid-template-columns:  auto;
+        padding: 2%;
+        grid-gap:1em;
+        justify-items: stretch;
+    }
+
+    .logobar{
+        padding: 5%;
+        justify-items:stretch;
+        border-bottom: 2px solid black;
+    }
+    .carditem{
+        max-width: 150px;
+        padding: 5%;
+    }
+    .carditem img{
+        max-width: 150px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .navbar{
+      grid-template-columns: 1fr;
+      padding: 2%;
+      grid-gap:.5em;
+    }
+
+    .links{
+        grid-template-columns: 1fr ;
+    }
+
+    
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .carditem{
+        min-width: 150px;
+        padding: 5%;
+    }
+    .carditem img{
+        max-width: 80px;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    footer .socialmedia{
+        padding-right: 0;
+    }
+
+  }
+  /*------------------RESPONSIVE DESIGN end-------------------------*/
