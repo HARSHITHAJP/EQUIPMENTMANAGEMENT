@@ -1,7 +1,7 @@
-
 /*=====================================================Main section====*/
 .maincontent{
-  padding-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 .aboutpart h1{
   color: yellow;
@@ -19,24 +19,6 @@
 
 
 /*=====================================================Main section====*/
-
-.gallery-grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
-  grid-gap:2em;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.gallery-grid img{
-  width: 300px;
-  height: 300px;
-  border-radius: .2em;
-  object-fit: cover;
-  object-position: center;
-}
-
 
   /*------------------RESPONSIVE DESIGN start-------------------------*/
 
@@ -115,3 +97,4 @@
 
   }
   /*------------------RESPONSIVE DESIGN end-------------------------*/
+
