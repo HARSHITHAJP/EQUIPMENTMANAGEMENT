@@ -1,0 +1,112 @@
+{ 
+    "equipments":[
+   {
+     "Purid": 401,
+     "Eid": 1004,
+     "Ename": "Tennisball",
+     "Quantity": 10,
+     "Amount": 700.78,
+     "Date": "2021-02-18",
+     "Sname": "Tennis",
+     "Stype": "outdoor"
+  },
+
+  {
+     "Purid": 402,
+     "Eid": 1002,
+     "Ename": "Basketball",
+     "Quantity": 5,
+     "Amount": 1898.75,
+     "Date": "2020-06-22",
+     "Sname": "Basketball",
+     "Stype": "outdoor"
+  },
+
+  {
+     "Purid": 403,
+     "Eid": 1008,
+     "Ename": "Badminton shuttle",
+     "Quantity": 20,
+     "Amount": 2000.99,
+     "Date": "2021-07-30",
+     "Sname": "Badminton",
+     "Stype": "outdoor"
+  },
+
+  {
+     "Purid": 404,
+     "Eid": 1005,
+     "Ename": "Cricket bat",
+     "Quantity": 8,
+     "Amount": 4000.99,
+     "Date": "2022-01-27",
+     "Sname": "Cricket",
+     "Stype": "outdoor"
+  },
+
+  {
+     "Purid": 405,
+     "Eid": 1006,
+     "Ename": "Volley ball",
+     "Quantity": 5,
+     "Amount": 1500.99,
+     "Date": "2021-11-28",
+     "Sname": "Volley Ball",
+     "Stype": "outdoor"
+  },
+
+  {
+     "Purid": 406,
+     "Eid": 1001,
+     "Ename": "Football helmet",
+     "Quantity": 2,
+     "Date": "2021-09-26",
+     "Sname": "Football",
+     "Stype": "outdoor"
+  },
+
+  {
+     "Purid": 407,
+     "Eid": 1007,
+     "Ename": "Football ",
+     "Quantity": 3,
+     "Amount": 1050.75,
+     "Date": "2021-05-17",
+     "Sname": "Football",
+     "Stype": "outdoor"
+  },
+  {
+     "Purid": 408,
+     "Eid": 1003,
+     "Ename": "Badminton racquet",
+     "Quantity": 10,
+     "Amount": 5000.99,
+     "Date": "2021-06-21",
+     "Sname": "Badminton",
+     "Stype": "outdoor"
+  },
+
+  {
+     "Purid": 409,
+     "Eid": 1009,
+     "Ename": "Chess pieces pack",
+     "Quantity": 2,
+     "Amount": 700.99,
+     "Date": "2021-07-24",
+     "Sname": "Chess pieces",
+     "Stype": "indoor"
+  },
+
+  {
+     "Purid": 410,
+     "Eid": 1010,
+     "Ename": "Volley Ball net ",
+     "Quantity": 2,
+     "Amount": 1000.99,
+     "Date": "2021-09-25",
+     "Sname": "Volley Ball",
+     "Stype": "outdoor"
+  }
+
+ ]
+}
